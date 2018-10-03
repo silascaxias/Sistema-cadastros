@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	outline: none;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+table{
+    text-align: center;
+}
+table th{
+	background: #0B486B;
+	font-size: 15px;
+	color: #ffffff94;
+}
+table tr{
+	border: 1px solid #000;
+	font-family: "Montserrat";
+}
+table td{
+	background-color: #0b486bba;
+	color: #ffffff94;
+}
+
+tbody tr td{
+	padding: 10px;
+	font-size: 14px;
+}
+table a{
+	text-decoration: none;
+}
+
+#login{
+	width: 500px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	border:2px solid #0B486B;
+	padding: 15x;
+	font-size: 15px;
+	display:inline-flex;
+	align-items: center;
+	padding-bottom: 33px;
+}
+#cad{
+	width: 266px;
+	position: relative;
+	top: 100px;
+	border:2px solid #0B486B;
+	padding: 15x;
+	font-size: 15px;
+	display:inline-flex;
+	align-items: center;
+	padding-bottom: 33px;
+}
+.logo,.logo img{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 7px;
+}
+.result{
+	width: 100%;
+	height: 30px;
+	background: #3B8686;
+	text-align: center;
+	line-height: 40px;
+	font: 1000 20px 'Montserrat';
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#cadastrar{
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 25px;
+	width: 200px;
+	background: #0B486B;
+	text-align: center;
+	padding-top: 0px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	margin-top: 0px;
+}	
+#cadastrar a{
+	color:#439db9;
+	font: 1000 15px 'Montserrat';
+}
+
+#cadCenter{
+	min-width:120px;
+	min-height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 50px;
+}
+#cadCenter a{
+	background: #0B486B;
+	color:#439db9;
+	font: 1000 15px 'Montserrat';
+	padding: 8px;
+	border-radius: 3px;
+	margin-top: 51px;
+}
+
+.message{
+	width: 100%;
+	padding: 3px;
+	color: #666;
+	background: #f1f1f1;
+	margin: 0 auto;
+	text-align: center;
+}	
+.form label{
+	display: block;
+	padding-top: 5px;
+	margin-top: 5px;
+}
+.form select{
+	border: none;
+	font: 12px 'Montserrat';
+	width: auto;
+}
+.boxLogin{
+	margin: auto;
+	width: 250px;
+}
+.txt{
+	font-size: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	border: thin solid #f1f1f1;
+    border:none;
+    border-bottom: 1px solid #ddd;
+    transition: border 0.4s;
+}
+
+.sb{
+	display: block;
+	border: none;
+	width: 250px;
+	height: 40px;
+	margin-top: 10px;
+	cursor: pointer;
+	font: 400 18px 'Montserrat';
+	color: white;
+	margin-bottom: 0;
+	background-color: #3B8686;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+.sb:hover{
+	background: #1d3c3ced;
+}
+/*classes de heranÃƒÆ’Ã‚Â§a */
+
+.bradius{
+	border-radius: 6px;
+}
+	
+/* Multiplos estilos*/
+.txt,.txt:focus,.sb,.sb:hover{
+	transition: all 0.5s linear;
+}
+#centralizar{
+ 	display: flex;
+  	align-items: center;
+  	align-content: center;
+}
+ .tbHome{
+	margin-left: 50px;
+	margin-right: 50px;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+ }
+.tbHome input{
+	width: 110px;
+	height: 25px;
+	font-size: 13px;
+}
+.acomodar{	
+	margin: 0 auto;
+	width: 250px;
+}
+.icon-edit{
+    content: url("imagens/edit.png");
+    transform: scale(.8);
+    float:left;
+}
+.icon-excluir{
+    content: url("imagens/excluir.png");
+    transform: scale(.8);
+    float:left;
+}
+.icons{
+	display:inline-flex;
+}
+
+.a,.b{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.group{
+	display:inline-flex;
+	height: 100%;
+	min-height: 100%;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	margin-top: 0;
+}
